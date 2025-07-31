@@ -4,7 +4,7 @@ import './Skills.css';
 export default function Skills() {
   return (
     <>
-    <div className='container p-5 bg-white' style={{height:'auto'}}>
+    <div className='container-fluid p-5 bg-white' style={{height:'auto'}}>
       <div className='section-box mx-auto'>
       <h6 className='section-subtitle'>MY SPECIALTY</h6>
       <h2 className='section-title'>MY SKILLS</h2>

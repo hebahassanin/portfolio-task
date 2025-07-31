@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Work() {
   return (
     <>
-    <div className='container work p-5 bg-white' style={{height:' auto'}}>
+    <div className='container-fluid work p-5 bg-white' style={{height:' auto'}}>
       <div class="section-box mx-auto">
        <h6 className='section-subtitle'>my work</h6>
         <h2 className='section-title'>recent work</h2>

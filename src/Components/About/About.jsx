@@ -4,7 +4,7 @@ import './About.css'
 export default function About() {
   return (
     <>
-    <div className='container p-5 bg-white' style={{height:'auto'}}>
+    <div className='container-fluid p-5 bg-white' style={{height:'auto'}}>
       <div className='section-box mx-auto'>
       <h6 className='section-subtitle'>about us</h6>
       <h2 className='section-title'>who am i</h2>

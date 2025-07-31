@@ -13,6 +13,7 @@
     z-index: 0;
     box-shadow: 0 0 56px -8px #0000002b;
     padding: 2em;
+    transition: all 0.5s;
 }
 .services i{
     position: absolute;
@@ -49,4 +50,18 @@
     font-size: 16px;
     font-weight: 500;
     margin-top: 30px;
+}
+.services:hover{
+    transform: scale(1.1);
+}
+@media(max-width:576px){
+    .services{
+        width: 80%;
+        text-align: center;
+    }
+    .services i{
+        left:50%;
+        transform: translate(-50%);
+
+}
 }

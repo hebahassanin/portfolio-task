@@ -4,7 +4,7 @@ import NavBar from '../NavBar/NavBar';
 
 export default function SideBar() {
   return (
-    <div className='bg-body-tertiary mt-0'>
+    <div className=' sidebar bg-body-tertiary mt-0'>
         <a className="sidebar-brand" href="#">
           <img src={sidebarImage} className='rounded-circle' alt='logo' />
         </a>
