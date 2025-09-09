@@ -26,7 +26,7 @@ body{
 /* End General style */
 
 /* Start Navbar*/
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     .navbar .container-fluid, 
     .navbar-expand-lg .navbar-collapse,
      .navbar-expand-lg .navbar-nav{
@@ -82,8 +82,8 @@ body{
 .sidebar-brand img{
     display: block;
     margin: 2rem auto;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
 
 }
 .sidebar-title{

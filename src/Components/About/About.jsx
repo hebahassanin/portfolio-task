@@ -4,7 +4,7 @@ import './About.css'
 export default function About() {
   return (
     <>
-    <div className='container-fluid p-5 bg-white' style={{height:'auto'}}>
+    <div className='container-fluid p-3 p-lg-5 bg-white ' style={{minHeight:"100vh"}}>
       <div className='section-box mx-auto'>
       <h6 className='section-subtitle'>about us</h6>
       <h2 className='section-title'>who am i</h2>
@@ -22,26 +22,26 @@ export default function About() {
       </p>
 
       <div className='row'>
-        <div className='col-md-3'>
-          <div className='services color-1'>
+        <div className='col-md-3 justify-content-center d-flex  '>
+          <div className='services color-1 w-100'>
             <i className="fa-regular fa-lightbulb icon1"></i>
             <h3>Graphic Design</h3>
           </div>
         </div>
-        <div className='col-md-3'>
-          <div className='services color-2'>
+        <div className='col-md-3 justify-content-center d-flex  '>
+          <div className='services color-2 w-100'>
             <i className="fa-solid fa-earth-africa icon2"></i>
             <h3>Web Design</h3>
           </div>
         </div>
-        <div className='col-md-3'>
-          <div className='services color-3'>
+        <div className='col-md-3 justify-content-center d-flex  '>
+          <div className='services color-3 w-100'>
             <i className="fa-solid fa-database icon3"></i>
             <h3>Software</h3>
           </div>
         </div>
-        <div className='col-md-3'>
-          <div className='services color-4'>
+        <div className='col-md-3 justify-content-center d-flex  '>
+          <div className='services color-4 w-100'>
             <i className="fa-solid fa-mobile-screen-button icon4"></i>
             <h3>Application</h3>
           </div>

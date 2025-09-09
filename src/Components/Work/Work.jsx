@@ -16,8 +16,8 @@ export default function Work() {
   }
   return (
     <>
-    <div className='container-fluid work p-5 bg-white' style={{minHeight:'100%'}}>
-      <div class="section-box mx-auto">
+    <div className='container-fluid work p-3 p-lg-5 bg-white' style={{minHeight:'100%'}}>
+      <div class="section-box  mx-auto">
        <h6 className='section-subtitle'>my work</h6>
         <h2 className='section-title'>recent work</h2>
 

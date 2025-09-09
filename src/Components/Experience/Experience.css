@@ -1,60 +1,70 @@
-.experience-text{
-    background-color: #f2f3f7;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 2px;
+.experience-text {
+  background-color: #f2f3f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
 }
-.experience-text h2{
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: capitalize;
+.experience-text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
-.experience-text h2 a{
-    text-decoration: none;
-    color: #000;
+.experience-text h2 a {
+  text-decoration: none;
+  color: #000;
 }
-.experience-text h2 span{
-    font-size: 16px;
-    opacity: 0.4;
-    margin-left: 20px;
+.experience-text h2 span {
+  font-size: 16px;
+  opacity: 0.4;
+  margin-left: 20px;
 }
-.experience-text p{
-    /* color: #999; */
-    font-weight: 300;
-    margin: 15px 0;
-    line-height: 1.8;
-    font-size: 16px;
+.experience-text p {
+  /* color: #999; */
+  font-weight: 300;
+  margin: 15px 0;
+  line-height: 1.8;
+  font-size: 16px;
 }
 
-.icon-container{
-    display: flex;
-    justify-content: center;
-    /* position: relative; */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
 }
-.icon-left{
-    margin-right: 10px;
-    font-size: 21px;
-    padding: 15px;
-    width: 50px;
-    height: 50px;
-    margin-top: 15px;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index:5;
+.icon-left {
+  margin-right: 10px;
+  font-size: 21px;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
 }
-.line{
-    position: fixed;
-    height: 100%;
-    width: 100%;
+.line {
+  position: fixed;
+  height: 100%;
+  width: 100%;
 }
-.vertical-line{
-    position: absolute;
-    left:20px;
-    width:5px;
-    height: 100%;
-    background-color: #f2f3f7;
+.vertical-line {
+  position: absolute;
+  left: 20px;
+  width: 5px;
+  height: 70%;
+  background-color: #f2f3f7;
+}
 
+.vertical-line::after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: -22px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #f2f3f7;
 }

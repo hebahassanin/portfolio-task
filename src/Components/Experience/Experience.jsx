@@ -4,17 +4,17 @@ import './Experience.css';
 export default function Experience() {
   return (
     <>
-    <div className='container-fluid p-5 bg-white' style={{height:'auto'}}>
+    <div className='container-fluid p-0 pt-3 p-lg-5 bg-white' style={{minHeight:"100vh"}}>
       <div className='section-box mx-auto'>
         <h6 className='section-subtitle'>experience</h6>
         <h2 className='section-title'>WORK EXPERIENCE</h2>
 
-        <div className='line'>
+        <div className='d-none d-sm-block line'>
           <div className='vertical-line'></div>
         </div>
 
         <div className='icon-container'>
-          <i className="fa-solid fa-pencil icon-left bg-primary"></i>
+          <i className="d-none d-sm-block fa-solid fa-pencil icon-left bg-primary"></i>
           <div className='experience-text'>
             <h2>
               <a href='#'>full stack developer</a>
@@ -31,7 +31,7 @@ export default function Experience() {
 
         
         <div className='icon-container'>
-          <i className="fa-solid fa-pencil icon-left bg-danger"></i>
+          <i className="d-none d-sm-block fa-solid fa-pencil icon-left bg-danger"></i>
           <div className='experience-text'>
             <h2>
               <a href='#'>Front End Developer at Google Company</a>
@@ -45,7 +45,7 @@ export default function Experience() {
         </div>
 
         <div className='icon-container'>
-          <i class="fa-solid fa-pencil icon-left bg-warning"></i>
+          <i class="d-none d-sm-block fa-solid fa-pencil icon-left bg-warning"></i>
           <div className='experience-text'>
             <h2>
               <a href='#'>System Analyst</a>
